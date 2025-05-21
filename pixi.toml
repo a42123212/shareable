@@ -1,0 +1,11 @@
+[project]
+authors = ["ychsu <h42123212@hotmail.com.tw>"]
+channels = ["conda-forge"]
+name = "leafmap"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+geospatial = ">=0.11.3,<0.12"
