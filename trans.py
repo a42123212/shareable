@@ -2,7 +2,7 @@ from osgeo import gdal
 import numpy as np
 
 # 開啟原始影像
-ds = gdal.Open("output_byte.tif", gdal.GA_Update)
+ds = gdal.Open("output_byte_2.tif", gdal.GA_Update)
 band = ds.GetRasterBand(1)
 
 # 設定 NoData
